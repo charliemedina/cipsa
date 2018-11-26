@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rellena tu CV</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all">
+</head>
+<body>
+	<h3>Rellena tu CV</h3>
+	<form action="" method="post">
+	<fieldset>
+		<legend>Datos personales </legend>
+		<label>Provincia</label> <br>
+		<select class="province">
+			<option value="default">-selecciona-</option>
+			<option value="asturias">Asturias</option>
+			<option value="barca">Barcelona</option>
+			<option value="cantabria">Cantabria</option>
+			<option value="madrid">Madrid</option>
+			<option value="sevilla">Sevilla</option>
+			<option value="zaragoza">Zaragoza</option>
+		</select> <br><br><br>
+		<label>Fecha de nacimiento</label>
+		<input type="text" name="day" minlength="1" maxlength="2" size="3">
+		<label>de</label>
+		<select class="select_month">
+			<option value="enero">Enero</option>
+			<option value="febrero">Febrero</option>
+			<option value="marzo">Marzo</option>
+			<option value="abril">Abril</option>
+			<option value="mayo">Mayo</option>
+			<option value="junio">Junio</option>
+			<option value="julio">Julio</option>
+			<option value="agosto">Agosto</option>
+			<option value="septiembre">Septiembre</option>
+			<option value="octubtre">Octubre</option>
+			<option value="noviembre">Noviembre</option>
+			<option value="diciembre">Diciembre</option>
+		</select> 
+		<label>de</label>
+		<input type="text" name="year" minlength="4" maxlength="4" size="5"><br><br>
+		<label>Temas de inter&eacutes</label><br>
+		<select class="mult_list" multiple="multiple" autofocus>
+			<option>Administraci&oacuten de bases de datos</option>
+			<option>An&aacutelisis y programaci&oacuten</option>
+			<option>Arquitectura</option>
+			<option>Calidad</option>
+			<option>ERP, CRM, Business Intelligence</option>
+			<option>Ingiener&iacutea de Software</option>
+			<option>Administraci&oacuten de redes</option>
+		</select>
+	</fieldset>
+	</form>
+</body>
+</html>

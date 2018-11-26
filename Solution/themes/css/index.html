@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../../css/bootstrap.css">
+	<link rel="stylesheet" href="../../css/style.css">
+	<script src="../../js/jquery-3.3.1.min.js"></script>
+	<script src="../../js/popper.min.js"></script>
+	<script src="../../js/bootstrap.js"></script>
+	<title>Cipsa-Solution</title>
+</head>
+<body>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+		  <!-- <img src="img/logo.png" width="247" height="69" class="d-inline-block align-top loat-right" alt=""> -->
+		  <li class="breadcrumb-item"><a href="../../index.html">Inicio</a></li>
+		  <li class="breadcrumb-item"><a href="../html/index.html">HTML</a></li>
+		  <li class="breadcrumb-item active" aria-current="page">CSS</li>
+		  <li class="breadcrumb-item"><a href="../js_jquery/index.html">JQuery-JavaScript</a></li>
+		</ol>
+	</nav>
+	<div class="container">
+		<div class="list-group float-left">
+			<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C1">Ejercicio 1</a>
+			<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C6">Ejercicio 6</a>
+		</div>
+		<div class="list-group float-left ml-5">
+			<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C2">Ejercicio 2</a>
+			<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C7">Ejercicio 7</a>
+		</div>
+		<div class="list-group float-left ml-5">
+			<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C3">Ejercicio 3</a>
+			<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C8">Ejercicio 8</a>
+		</div>
+		<div class="list-group float-left ml-5">
+			<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C4">Ejercicio 4</a>
+			<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C9">Ejercicio 9</a>
+		</div>
+		<div class="list-group float-left ml-5">
+			<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C5">Ejercicio 5</a>
+			<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C10">Ejercicio 10</a>
+		</div>
+		<div class="list-group float-left ml-5">
+			<a href="Final_Practice/home.html" target="blank" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-4 bg-white rounded" id="C11">Práctica Final</a>
+		</div>
+	</div>
+	<div id="dynamic-page">
+	</div>
+	<div class="container invisible pt-5">
+		<iframe id="iframe" src="">
+	</div>
+
+</iframe>
+</body>
+<script>
+
+		
+    $(".a_href").click (function() {
+			var id = $(this).attr('id');
+			var index = 1;
+			loadIframe(id.substring(1, id.length));
+			$(".container").removeClass("invisible");
+		});
+
+		function loadIframe(id) {
+			var src = "../../themes/css/exercise";
+      try {
+        var $iframe = $('#iframe');
+        $iframe.attr('src', src+id+".html");
+			} 
+			catch (e) {
+        alert(e.menssage);
+			}
+		}
+</script>
+</html>

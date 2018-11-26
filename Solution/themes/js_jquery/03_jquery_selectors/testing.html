@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<link rel="stylesheet" href="../style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../../../css/bootstrap.css">
+	<link rel="stylesheet" href="testing.css">
+	<script src="testing.js"></script>
+	<script src="../../../js/jquery-3.3.1.min.js"></script>
+
+
+</head>
+<body>
+	<form id="form-test">
+		<input type="text" id="text" class="normal">
+		<input type="checkbox" id="state">
+		<input type="button" id="run" value="Change">
+	</form>
+
+	<script>
+			$(function (){
+				$("#run").click(function(){
+					var check = $("#state").is(":checked")
+					$("#text").toggleClass("especial", check);
+				})
+			});
+	</script>
+</body>
+</html>

@@ -1,0 +1,594 @@
+/*index*/
+
+#home {
+	margin-bottom: 20px;
+}
+.all {
+	overflow: hidden;
+}
+.all ul li {
+	list-style-type: square;
+}
+a {
+	color: blue;
+}
+.index_left {
+	width: 25%;
+	float: left;
+}
+.index_rigth {
+	width: 75%;
+	float: right;
+}
+/*exercise 2*/
+.v_menu {
+	margin-top: 25px;
+}
+.v_menu ul {
+	margin: 0;
+	padding: 0;
+}
+.v_menu li {
+	list-style-type: none;
+	width: 250px;
+	height: 30px;
+}
+.v_menu li a {
+	padding: 5px;
+	background:blue;
+	text-decoration-style: none;
+	text-decoration-line: none;
+	border:1px solid black; 
+}
+.v_menu li a:link {color:white;}
+.v_menu li a:active {color:red;}
+.v_menu li a:visited {color:red;}
+.v_menu li a:hover {
+	font-family: sans-serif;
+	font-size: 17px;
+}
+/*exercise 3*/
+.box {
+	margin-top: 20px;
+	width: 200px;
+	height: 450px;
+	display: inline;
+	float: left;
+	margin: 1em;
+	border: 1px solid black;
+}
+.labelBox {	
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 1.8em;
+}
+#box1 {
+	text-align: left;
+	font-family: Arial;
+	line-height: 1.2em;
+    font-size: 2em;
+}
+#box2 {
+	text-align: center;
+	font-family: Courier;
+	line-height: 1.6em;
+    font-size: 1.5em;
+}
+#box3 {
+	text-align: right;
+	font-family: Verdana;
+	line-height: 2em;
+    font-size: 0.8em;
+}
+/*exercise 4*/
+.normalTable {
+	width: 150px;
+	border-spacing: 0;
+	caption-side: bottom;
+}
+.normalTable td, .normalTable tr {
+	border: 1px solid #000000;
+}
+/*exercise 5*/
+.table5 {
+	text-align: right;
+	font-family: Arial;
+	font-size: 0.9em;
+	caption-side: top;
+	border: 1px solid #000000;
+}
+.table5 td {
+	width: 150px;
+}
+.table5 td:first-child {
+	background-color: blue;
+	font-weight: bold;
+	text-align: left;
+}
+.table5 tr:first-child {
+	background-color: blue;
+	font-weight: normal;
+	text-align: left;
+}
+#firstItem {
+	font-weight: normal;
+}
+/*exercise 6*/
+.main {
+	width: 1000px;
+}
+
+td.centro {
+    padding-left: 20px;
+    font-size: 30px;
+}
+#similarTable td {
+    border: 1px solid #000000;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+#similarTable {
+	margin-top: 4.5%;
+    margin-left: 4.5%;
+    width: 1000px;
+    border: 1px solid #000000;
+    border-spacing: 0.5em;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+thead tr td {
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+}
+tfoot tr td {
+    background-color: black;
+    color: white;
+	font-size: 11px;
+	padding-left: 20px;
+}
+td.menu {
+	padding-left: 5px;
+    width: 110px;
+    height: 80px;
+}
+td.lateral {
+    width: 160px;
+    height: 200px;
+}
+td.pequeno {
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+/*exercice 7*/
+#mainContainerE7 {
+	width: 800px;
+	margin: 2% 13%;
+	font-size: larger;
+}
+
+#headerE7 {
+	margin: 2% auto;
+	height: 100px;
+	border: solid 1px black;
+	text-align: center;
+}
+
+#headerE7 div {
+	margin: 5% auto;
+	color: red
+}
+
+#menuE7 {
+    border: solid 1px black;
+    height: 50px;
+    text-align: center;
+}
+
+#menuE7 ul {
+    margin: 10px auto;
+    width: 300px;
+}
+
+#menuE7 li {
+	float: left;
+	list-style-type: none;
+	width: 100px;
+	color: #c8e041;
+}
+
+#footerE7 {
+	margin: 2% 0;
+	border: solid 1px black;
+	height: 50px;
+	color: red;
+}
+
+#bodyE7 {
+	border: solid 1px black;
+	margin: 2% 0;
+}
+
+#bodyE7 p {
+	margin: 4.5% 3%;
+}
+
+#koalaImageE7 {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: auto;
+	padding: 4.5% 0;
+}
+
+#footer label {
+	padding-right: 10%;
+	float: right;
+	margin: 2% 0;
+}
+
+/*exercice 8*/
+#mainContainerE8 {
+	width: 800px;
+	margin: 2% 13%;
+	font-size: larger;
+}
+
+#headerE8 {
+	margin: 2% auto;
+	height: 100px;
+	border: solid 1px black;
+	text-align: center;
+}
+
+#headerE8 div {
+	margin: 5% auto;
+	color: red
+}
+
+#menuE8 {
+	float: left;
+	height: 700px;
+	width: 250px;
+    border: solid 1px black;
+}
+
+#menuE8 ul {
+    width: 250px;
+    margin: 33%;
+    padding: 0;
+}
+
+#menuE8 li {
+	list-style-type: none;
+	color: #c8e041;
+}
+
+#footerE8 {
+	margin: 2% 0;
+	border: solid 1px black;
+	height: 50px;
+	color: red;
+	float: left;
+	width: 800px;
+}
+
+#bodyE8 {
+    border: solid 1px black;
+    margin: 0 0 0 15px;
+    height: 700px;
+    width: 529px;
+    float: left;
+}
+
+#bodyE8 p {
+	margin: 4.5% 3%;
+}
+
+#bodyE8 h1 {
+	margin: 2% 2%;
+}
+
+#koalaImageE8 {
+	width: 300px;
+	height: 300px;
+	margin: 2% 2%;
+}
+
+#footerE8 label {
+	padding-right: 10%;
+	float: right;
+	margin: 2% 0;
+}
+
+.clearBooth {
+	clear: both;
+}
+
+/*exercice 9*/
+#mainContainerE9 {
+	width: 100%;
+	margin: 2% 0;
+	font-size: larger;
+}
+
+#headerE9 {
+	margin: 2% auto;
+	height: 100px;
+	border: solid 3px black;
+	text-align: center;
+}
+
+#headerE9 div {
+	margin: 5% auto;
+	color: red
+}
+
+#headerE9 h2 {
+	color: purple;
+}
+
+#bodyE9 {
+    margin: 0 0 0 15px;
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+
+#bodyE9 p {
+	margin: 4.5% 3%;
+}
+
+#bodyE9 h1 {
+	margin: 2% 2%;
+}
+
+.menuE9 {
+	border: solid 3px black;
+	float: left;
+	height: 500px;
+	width: 31.4%;
+}
+
+#leftDiv {
+	background-color: yellow;
+}
+
+#centerDiv {
+	margin: 0 2%;
+	background-color: rgb(235, 197, 240);
+}
+
+#rightDiv {
+	background-color: rgb(182, 180, 180);
+	color: rgb(73, 123, 197);
+}
+
+#rightDiv div {
+	margin: 5% 2%;
+}
+
+.menuE9 ul {
+    width: 100%;
+	padding: 5% 2%;
+	margin: 5% 0;
+}
+
+.menuE9 li {
+	list-style-type: none;
+}
+
+.menuE9 li::before {
+	content: "* ";
+}
+
+.menuE9 p {
+	padding: 3% 3%;
+}
+
+#koalaImageE9 {
+	width: 96%;
+	height: 50%;
+	margin: 2% 2%;
+}
+
+#prE9 {
+	width: 96%;
+	height: 50%;
+	margin: 2% 2%;
+}
+
+#footerE9 {
+	margin: 2% 0;
+	background-color: #000000;
+	border: solid 1px black;
+	height: 50px;
+	color: white;
+	float: left;
+	width: 100%;
+}
+
+#footerE9 label {
+	padding-right: 1%;
+	float: right;
+	margin: 1% 0;
+}
+
+/*exercice 10*/
+#mainContainerE10 {
+	width: 100%;
+	margin: 2% 0;
+	font-size: larger;
+}
+
+#headerE10 {
+	width: 100%;
+	height: 134px;
+	border: solid 1px #cacdd9;
+	background-image: url(../../img/webVacaciones.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menuE10 {
+	float: left;
+	height: 5%;
+	width: 100%;
+	background-color: #f7f3d0;
+	border-left: solid 1px #cacdd9;
+	border-right: solid 1px #cacdd9;
+}
+
+#menuE10 ul {
+	padding: 0;
+	margin: 1% 2% ;
+    
+}
+
+#menuE10 li {
+	list-style-type: none;
+	float: left;
+	padding: 1px 13px 2px 3px;
+}
+
+#menuE10 li a{
+	color: black;
+}
+
+#bodyE10 {
+    border: solid 1px #cacdd9;
+    margin: 0;
+    height: 67%;
+    width: 100%;
+    float: left;
+}
+
+#leftDivE10 {
+	width: 70%;
+	height: 67%;
+	border-right: solid 1px #cacdd9;
+	float: left;
+}
+
+#rightDivE10 {
+    width: 29.7%;
+    height: 67%;
+	float: left;
+	border: solid 1px transparent;
+	border-top: none;
+}
+
+#bodyE10 p {
+	margin: 4.5% 3%;
+}
+
+#bodyE10 h1 {
+	margin: 2% 2%;
+}
+
+#leftDivE10 h3 {
+	margin: 3%;
+}
+
+#menuAux {
+	padding: 0;
+	margin: 0 0 10% 3%;
+}
+
+#menuAux li {
+	float: left;
+	list-style-type: none;
+	color: #930394;
+	font-weight: bold;
+	padding-right:  5px;
+}
+
+#menuAux a {
+	padding-right: 5px;
+	color: #7881ac;
+}
+
+#menuE10 li a {
+	color: #7881ac;
+}
+
+.banerFill {
+	background-color: #7881ac;
+	color: white;
+	border: solid 1px #7881ac;
+	margin: 5% 0;
+}
+
+#searchBaner {
+	margin-top: 0;
+}
+
+#searchInput {
+	margin: 0 5%;
+}
+
+#serchText {
+    border-radius: 8px;
+    background-color: #f7f3d0;
+    color: #b9b8b8;
+    background-size: cover;
+    width: 40px;
+	text-align: center;
+	margin: 5% 0 5% 54%;
+}
+
+#registerSpan a {
+	color:  #7881ac;
+}
+
+#registerText {
+	margin: 0 15%;
+}
+
+#rightDivE10 input[type="radio"] {
+	margin-bottom: 10px;
+}
+
+.radioB {
+	display: block;
+}
+
+ul#informationsList {
+	list-style: none;
+}
+
+ul#informationsList li a {
+	color:  #7881ac;
+}
+ 
+#footerE10 {
+	margin: 0;
+	height: 30px;
+	color: red;
+	float: right;
+	width: 99.8%;
+	border: solid 1px #b9b8b8;
+	border-top: none;
+	margin-left: 1px;
+}
+
+#footerE10 div {
+	float: right;
+	margin: 0 0;
+	color: #b9b8b8;
+	padding-right: 5px;
+}
+
+#footerE10 {
+	margin-left: 1px;
+}
+
+
+

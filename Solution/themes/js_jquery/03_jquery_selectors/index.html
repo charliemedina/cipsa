@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>pagina 35 ejercicios jQuery</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+		body{
+			font-family: Arial, sans-serif;
+		}
+		h2{
+			width: 80%;
+			height: auto;
+			text-align: center;
+			color: white;
+			background-color: blue; 
+
+			margin-left: 10%;
+		}
+		small{
+			border:2px solid tomato;
+			background-color: #FC9;
+		}
+		</style>
+	</head>
+	<body>
+		<h2>ANEXO 3 - Pag 35 implementar las siguientes selecciones empleando JQuery:</h2>
+		<ul>
+			<li> Seleccionar todos los elementos div que poseen la clase “module”.</li>
+			<li> Seleccionar el tercer ítem de la lista desordenada con id= #myList.</li>
+			<li> Seleccionar el elemento &lt;label&gt; del elemento input utilizando un selector de
+			atributo.</label></li>
+			<li> Averiguar cuantos elementos en la página están ocultos (length).</li>
+			<li> Averiguar cuantas imágenes en la página poseen el atributo alt.</li>
+			<li> Seleccionar todas las filas impares del cuerpo de la tabla.</li>
+		</ul>
+		<small>
+			(*) Para comprobar las selecciones almacenalas en una variable y muéstrala en la consola del
+			navegador mediante el comando Console.dir().
+		</small>
+		<hr>
+		<div class="module">
+			<ul id="myList">
+				<li>Fila con Index #0</li>
+				<li>Fila con Index #1</li>
+				<li>Fila con Index #2</li>
+				<li>Fila con Index #3</li>
+			</ul>
+		</div>
+		<div>
+			<form id="formulario">
+				<label for="hombre">Hombre</label>
+				<input type="radio" name="gender" id="hombre" value="hombre"><br>
+				<label for="mujer">Mujer</label>
+				<input type="radio" name="gender" id="mujer" value="mujer"><br>
+				<label for="otro">Otro</label>
+				<input type="radio" name="gender" id="otro" value="otro"><br><br>
+			</form>
+		</div>
+		<div class="module">
+			<table id="myTable" border="1">
+				<tr><td>Celda con Index #0</td></tr>
+				<tr><td>Celda con Index #1</td></tr>
+				<tr><td>Celda con Index #2</td></tr>
+				<tr><td>Celda con Index #3</td></tr>
+			</table>
+		</div>
+		<div>
+			<img src="imagen1.png" alt="texto" height="200" width="200">
+			<img src="imagen1.png" height="200" width="200">
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script>
+			$().ready(function () {
+				var div_modules = $("div.module");
+				var third_item_list = $("ul#myList li:eq(2)");
+				var label_by_attr = $("label[for='mujer']");
+				console.dir(div_modules);
+				console.dir(third_item_list);
+				console.dir(label_by_attr);
+			});
+		</script>
+	</body>
+</html>

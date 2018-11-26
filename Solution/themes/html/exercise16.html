@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Informaci&oacuten sobre el producto</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all">
+</head>
+<body>
+	<h3>Informaci&oacuten sobre el producto</h3>
+	<form>
+		<fieldset>
+			<legend>Datos b&aacutesicos</legend> 
+			<label>Nombre</label><br>
+			<input type="text" name="name" size="50"><br><br>
+			<label>Descripci&oacuten</label><br>
+			<textarea name="description" cols="55" rows="5"></textarea><br><br>
+			<label>Foto</label>
+			<input type="text" name="description_input">
+			<input type="button" name="select_button" value="Elegir..."><br><br>
+			<input type="checkbox" name="rb_visit">A&ntildeadir contador de visitas
+		</fieldset>
+		<fieldset>
+			<legend>Datos econ&oacutemicos</legend>
+			<label>Precio</label>
+			<input type="number" name="price_input" size="5"><label>&nbsp;&euro;</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label for="tax_label">Impuestos</label>
+			<select autofocus>
+				<option value="4">4%</option>
+				<option value="7">7%</option>
+				<option value="16">16%</option>
+				<option value="25">25%</option>
+				<option value="37">37%</option>
+				<option value="50">50%</option>
+				<option value="70">70%</option>
+			</select><br><br>
+			<label>Promoci&oacuten</label><br>
+			<input type="radio" name="any">Ninguno<br>
+			<input type="radio" name="free_trasport">Trasporte gratuito<br>
+			<input type="radio" name="discount">Descuento 5%
+		</fieldset>
+	</form>
+</body>
+</html>

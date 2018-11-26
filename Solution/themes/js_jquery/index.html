@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../../css/bootstrap.css">
+	<link rel="stylesheet" href="../../css/style.css">
+	<script src="../../js/jquery-3.3.1.min.js"></script>
+	<script src="../../js/popper.min.js"></script>
+	<script src="../../js/bootstrap.js"></script>
+	<title>Cipsa-Solution</title>
+</head>
+<body>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+		  <li class="breadcrumb-item"><a href="../../index.html">Inicio</a></li>
+		  <li class="breadcrumb-item"><a href="../html/index.html">HTML</a></li>
+		  <li class="breadcrumb-item"><a href="../css/index.html">CSS</a></li>
+		  <li class="breadcrumb-item active" aria-current="page">JQuery-JavaScript</li>
+		</ol>
+	</nav>
+	<div class="container">
+		<div class="list-group float-left">
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 bg-white rounded" id="H1">E1-Primer documento HTML</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 bg-white rounded" id="H2">E2-La exploración espacial</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 bg-white rounded" id="H3">E3-El Ártico</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 bg-white rounded" id="H4">E4-Espacios en blanco arbitrarios</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 bg-white rounded" id="H5">E5-La etiqueta blockquote</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 bg-white rounded" id="H6">E6-Mi sitio (parte I)</a>
+			</div>
+		<div class="list-group float-left">
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 ml-2 bg-white rounded" id="H7">E7-Mi sitio parte (II)</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 ml-2 bg-white rounded" id="H8">E8-Lista simple formateada</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 ml-2 bg-white rounded" id="H9">E9-Lista completa formateada</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 ml-2 bg-white rounded" id="H10">E10-Mi sitio (parte III)</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 ml-2 bg-white rounded" id="H11">E11-Ejemplo de tabla sencilla</a>
+			</div>
+		<div class="list-group float-left">
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 ml-3 bg-white rounded" id="H12">E12-Ejemplo de tabla avanzada</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 ml-3 bg-white rounded" id="H13">E13-Ejemplo de tabla compleja</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 ml-3 bg-white rounded" id="H14">E14-Rellena tu CV (parte I)</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 ml-3 bg-white rounded" id="H15">E15-Rellena tu CV (parte II)</a>
+				<a href="#iframe" class="text-dark list-group-item list-group-item-action a_href shadow p-3 mb-3 ml-3 bg-white rounded" id="H16">E16-Información sobre el producto</a>
+		</div>
+		
+	</div>
+	<div id="dynamic-page">
+	</div>
+	<div class="container invisible pt-5">
+		<iframe id="iframe" src="">
+	</div>
+
+</iframe>
+</body>
+<script>
+
+		
+    $(".a_href").click (function() {
+			var id = $(this).attr('id');
+			var index = 1;
+			loadIframe(id.substring(1, id.length));
+			$(".container").removeClass("invisible");
+		});
+
+		function loadIframe(id) {
+			var src = "";
+      try {
+        var $iframe = $('#iframe');
+        $iframe.attr('src', src+id+".html");
+			} 
+			catch (e) {
+        alert(e.menssage);
+			}
+		}
+</script>
+</html>

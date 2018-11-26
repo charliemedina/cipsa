@@ -1,0 +1,97 @@
+/*index*/
+.all {
+	overflow: hidden;
+}
+.all ul li {
+	list-style-type: square;
+}
+a {
+	color: blue;
+}
+.index_left {
+	width: 25%;
+	float: left;
+}
+.index_rigth {
+	width: 75%;
+	float: right;
+}
+/*exercise 3*/
+.discont_lines {
+	text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+.blockquote_italic {
+	font-style: italic;
+}
+/*exercise 4*/
+#row_discont_lines {
+	border-style: dashed;
+	/*border: 1px;
+	/*text-decoration-style: double;*/
+}
+#main_container {
+	text-align: left;
+}
+#head {
+	/*float: left;*/
+	display: inline; /*IE error*/
+	/*width: 100%;*/
+}
+#main_list ul, .items ul {
+    list-style-type: none; /*delete (-) -item1 -item2.... */
+    margin: 0; /*delete margin*/ 
+    padding: 0; /*delete padding*/
+}
+#main_list li, .floating_first, .floating {
+	float: left;
+	width: 25%;
+}
+.floating {
+	text-align: left;
+}
+.link_list {
+	font-size: 15px;
+}
+/*exercise 6_7*/
+.project {
+	height: 100px;
+	width: 100px;
+}
+/*exercise 8*/
+#strong_list {
+	font-weight: bold;
+}
+/*exercise 11*/
+.simple_table {
+	border-collapse: collapse;
+}
+.strong_cell {
+	font-weight: bold;
+}
+.strong_cell {
+	text-align: center;
+}
+.simple_table td {
+	border:1px solid #5d58584a;
+}
+/*exercise 12*/
+.sale_table {
+	border-collapse: collapse;
+}
+.sale_table td, th {
+	border:1px solid black;
+	padding: 10px;
+}
+
+/*exercise 13*/
+.text_aling td, th {
+	text-align: center;
+}
+.cbox {
+	cursor:pointer;
+}
+/*exercise 16*/
+input[type=number]{
+    width: 80px;
+}

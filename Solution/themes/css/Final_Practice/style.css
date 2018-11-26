@@ -1,0 +1,261 @@
+@media (max-width:400px)  {
+    /* CSS para un tamaño máximo de 400px */
+}
+
+.clear {
+    clear: both;
+}
+
+.floatRight {
+    border-left: solid 1px transparent;
+    float: right;
+}
+
+.floatLeft {
+    border-right: solid 1px #e2e2e2;
+    float: left;
+}
+
+.mainContainer {
+    border: #f8f8f8;
+    width: 90%;
+    margin: auto;
+}
+
+.baner {
+    height: 70px;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 8%;
+    background-color: #e8eaea;
+}
+
+.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1%;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.menu a {
+    float: left;
+    padding-right: 2%;
+    text-decoration: none;
+    color: black;
+}
+
+#activeLink {
+    color: #00aeef;
+}
+
+#homeLink {
+    color: #00aeef;
+}
+
+a:hover {
+    color: red;
+}
+
+.firstDiv {
+    height: 200px;
+}
+
+.firstLeftDiv {
+    width: 55%;
+    float: left;
+}
+
+.firstRightDiv {
+    float: right;
+    width: 45%;
+}
+
+.information h1 {
+    font-weight: normal;
+    color: black;
+    margin: 0 5%;
+    padding: 3% 0;
+}
+
+.firstLeftDiv p {
+    margin: 0 5%;
+    padding: 2% 5%;
+}
+
+
+#moreLink {
+    margin-left: 10%;
+    color: #00aeef;
+    text-decoration: none;
+}
+
+hr {
+    color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+}
+
+#hrText1 {
+    border: 0;
+    border-top: 1px solid #e2e2e2;
+    margin: 0;
+    padding: 0; 
+}
+
+.card {
+    width: 49.9%;
+    float: left;
+}
+
+.card p {
+    margin: 0 5%;
+    padding: 2% 5%;
+}
+
+
+.card h1 {
+    font-weight: normal;
+    color: black;
+    margin: 3% 5%;
+    padding: 0 5%;
+}
+
+.rightDiv {
+    border: solid 1px black;
+    width: 50%;
+}
+
+#moreButton {
+    margin: 2% 10% 6% 10%;
+    color: white;
+    padding: 0.5% 2%;
+    background-color: #06aded;
+    border-radius: 25%;
+    display: block;
+}
+
+#footer {
+    text-align: center;
+    background-color: #f1f1f2;
+}
+
+/* Background colors */
+
+.color-1 {
+    background: -webkit-linear-gradient(180deg, #f1f1f2 1%, white 99%);
+    background: -moz-linear-gradient(180deg, #f1f1f2 1%, white 99%);
+    background: -ms-linear-gradient(180deg, #f1f1f2 1%, white 99%);
+    background: -o-linear-gradient(180deg, #f1f1f2 1%, white 99%);
+    background:  linear-gradient(180deg, #f1f1f2 1%, white 99%);
+}
+
+.color-2 {
+    background: -webkit-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+    background: -moz-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+    background: -ms-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+    background: -o-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+    background:  linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+}
+  
+.color-3 {
+    background: -webkit-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+    background: -moz-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+    background: -ms-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+    background: -o-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+    background:  linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+}
+
+
+/***********************       Services, Projects      ********************/
+.firstLeftDiv h2 {
+    font-weight: normal;
+    color: black;
+    margin: 0 5%;
+    padding: 0 5%;  
+}
+
+.information p {
+    margin: 0 5% 3%;
+}
+
+#servDiv {
+    margin: 5% 5%;
+}
+
+.firstRightDiv.padding1 {
+    padding: 8% 0;
+}
+
+.firstRightDivServ {
+    float: right;
+    width: 45%;
+    padding: 0;
+}
+
+.informationServ h1 {
+    margin: 4% 0;
+    display: block;
+    font-weight: normal;
+    padding: 0% 5%;
+}
+
+.borderB {
+    border-bottom: solid 1px #f1f1f2;
+    padding: 3% 0;
+} 
+
+#firstDivServ1 {
+    height: 120px;
+}
+
+#firstDivServ2 {
+    height: 120px;
+}
+
+#firstDivServ3 {
+    height: 120px;
+}
+
+#firstDivServ4 {
+    height: 120px;
+}
+  
+/***********************       Contacts      ********************/
+
+#firstDivCont {
+    height: 500px;
+}
+
+.inputText {
+    display: block;
+    margin: 1% 5%;
+    padding: 1% 1%;
+}
+
+textarea {
+    margin: 1% 5%;
+    height: 150px;
+    width: 25%;
+}
+
+#sendButton {
+    margin: 2% 0% 5% 5%;
+    color: white;
+    padding: 0.5% 2%;
+    background-color: #06aded;
+    border-radius: 25%;
+    display: block;
+}

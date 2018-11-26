@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rellena tu CV</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all">
+</head>
+<body>
+	<h3>Rellena tu CV</h3>
+	<form action="" method="post">
+	<label>Nombre</label> <br>
+	<input type="text" name="name" maxlength="30">
+	<br>
+	<label>Apellidos</label> <br>
+	<input type="text" name="lastname" maxlength="80" size="52">
+	<br>
+	<label>Contrase&ntildea</label> <br>
+	<input type="password" name="pass" maxlength="10" value="">
+	<br>
+	<label>DNI</label>	<br>
+	<input type="text" name="dni" maxlength="9" value="" size="10">
+	<br>
+	<label>Sexo</label> <br>
+	<input type="radio" name="sex_man" checked="true"> Hombre
+	<br>
+	<input type="radio" name="sex_woman"> Mujer
+	<br><br>
+	<label>Incluir mi foto</label>
+	<input type="text" name="openfile_input">
+	<input type="button" name="select_button" value="Elegir..."><br><br>
+	<input type="checkbox" name="cb" checked="true" class="cbox"> <label>Suscribirme al bolet&iacuten de novedades</label>
+	<br><br>
+	<button type="submit" name="submit">Guardar cambios</button>
+	<button type="reset" name="reset">Borrar los cambios introducidos</button>
+	</form>
+</body>
+</html>
