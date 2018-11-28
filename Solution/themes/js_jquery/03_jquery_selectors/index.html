@@ -73,10 +73,16 @@
 			$().ready(function () {
 				var div_modules = $("div.module");
 				var third_item_list = $("ul#myList li:eq(2)");
-				var label_by_attr = $("label[for='mujer']");
+				var label_by_attr = $("input[type='radio']").siblings('label');
+				var hide_items = $("*is:visible");
+				var alt_attr = $("img[alt]").length;
+				var pair_row = $("tr:even");
 				console.dir(div_modules);
 				console.dir(third_item_list);
 				console.dir(label_by_attr);
+				console.dir(hide_items.length);
+				console.dir(alt_attr);
+				console.dir(pair_row);
 			});
 		</script>
 	</body>
